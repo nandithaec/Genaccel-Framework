@@ -1,4 +1,4 @@
-
+import subprocess
 #Defining formulas
 # Throughput (matmul per second) = No. of 4x4 matmul / (one second * One Systolic Cycle)
 # Throughput (Systolic per second) = No. Of PE mac x Vector size / One second 
@@ -7,6 +7,8 @@
 vector = [2, 4, 6, 8, 10]
 count = 0
 
+def execute_vivado():
+  
 
 
 
