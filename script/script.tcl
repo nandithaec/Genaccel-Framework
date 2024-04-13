@@ -1,4 +1,4 @@
-#start_gui;
+start_gui;
 open_project /home/iiitb/Jay/htiles_design_1/htiles_design_1.xpr 
 update_compile_order -fileset sources_1
 reset_run synth_1
@@ -14,4 +14,3 @@ report_timing_summary -delay_type min_max -report_unconstrained -check_timing_ve
 report_power -name {power_1} -file /home/iiitb/Desktop/Test_Case/power_rpt.rpt
 close_design
 quit
-
